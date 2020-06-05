@@ -6,7 +6,7 @@ author: cherylmc
 
 ms.service: expressroute
 ms.topic: conceptual
-ms.date: 12/05/2019
+ms.date: 03/25/2020
 ms.author: cherylmc
 
 ---
@@ -22,9 +22,9 @@ FastPath is available on all ExpressRoute circuits.
 
 ### Gateways
 
-FastPath still requires a virtual network gateway to be created to exchange routes between virtual network and on-premises network. For more information about virtual network gateways and ExpressRoute, see [ExpressRoute virtual network gateways](expressroute-about-virtual-network-gateways.md).
+FastPath still requires a virtual network gateway to be created to exchange routes between virtual network and on-premises network. For more information about virtual network gateways and ExpressRoute, including performance information and gateway SKUs, see [ExpressRoute virtual network gateways](expressroute-about-virtual-network-gateways.md).
 
-The virtual network gateway must be either:
+To configure FastPath, the virtual network gateway must be either:
 
 * Ultra Performance
 * ErGw3AZ
